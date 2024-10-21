@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--ff-body);
-  font-size: var(--fs-100);
+  font-size: var(--fs-400);
   color: var(--clr-primary-200);
 }
 
@@ -138,7 +138,7 @@ header,
   --logo-color: currentColor;
   padding: 2em 0;
   color: var(--clr-neutral-100);
-  background-color: var(--clr-primary-500);
+  background-color: var(--clr-primary-400);
   text-align: center;
 }
 
@@ -281,7 +281,7 @@ header,
 
 .btn--primary:hover,
 .btn--primary:focus {
-  background: var(--clr-primary-500);
+  background: var(--clr-primary-300);
   border-color: var(--clr-primary-500);
 }
 

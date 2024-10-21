@@ -10,8 +10,8 @@
 
 body {
   font-family: var(--ff-body);
-  font-size: var(--fs-400);
-  color: var(--clr-neutral-900);
+  font-size: var(--fs-100);
+  color: var(--clr-primary-200);
 }
 
 h1,
@@ -67,15 +67,15 @@ section,
 
 .article-title,
 .section-title {
-  color: var(--clr-primary-500);
+  color: var(--clr-primary-400);
 }
 
 .article-title {
-  font-size: var(--fs-700);
+  font-size: var(--fs-600);
 }
 
 .section-title {
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
 }
 
 /* //////////////////////
@@ -97,7 +97,7 @@ section,
 }
 
 .nav-list a {
-  color: var(--clr-neutral-900);
+  color: var(--clr-primary-300);
   text-decoration: none;
 }
 
@@ -116,11 +116,13 @@ section,
 html,
 body {
   height: 100%;
+  color: var(--clr-primary-200);
 }
 
 body {
   display: flex;
   flex-direction: column;
+  color: var(--clr-primary-300);
 }
 
 body > main {
@@ -183,7 +185,7 @@ header,
 
 .main-article__figure figcaption {
   margin: 1rem 0;
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
   opacity: 0.9;
 }
 

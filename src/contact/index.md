@@ -3,7 +3,7 @@ layout: base.njk
 title: Contact
 ---
 
-<form name="contact" method="POST" data-netlify="true" class="contact-form">
+<form name="contact" method="POST" data-netlify="true" class="contact-form" action="./thank-you.html">
 <input type="hidden" name="form-name" value="contact">
   <div class="form-group">
     <label for="name">Name:</label>

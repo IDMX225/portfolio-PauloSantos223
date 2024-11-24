@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Personal author's portfolio site.">
   <meta name="generator" content="Eleventy v2.0.1">
-  <title>Portfolio Page</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" href="/assets/vector.svg" type="image/svg+xml">
 </head>
@@ -41,39 +41,23 @@
   </div>
 </header>
   <main>
-    
-<div class="section container">
-  <h1 class="section-title">Recent work</h1>
-  <ul role="list" class="articles__list flow"><li>
-  <article class="snippet">
-    <img src="/assets/portfolio/article-3.jpg" alt="Picture of Codepen" class="snippet__image">
-    <h3 class="snippet__title"> <a href="/portfolio/2021-05-28-my-third-work/">Color UI Codepen</a></h3>
-    <p class="snippet__meta">by <span>Paulo Santos</span> on <span>October 13, 2024 </span>
-    </p>
-    <p class="snippet__body">This project I learned how to effectively use color in UI Design using Codepen.</p>
-    <a href="/portfolio/2021-05-28-my-third-work/" class="btn btn--primary">Continue Reading</a>
-  </article>
-</li><li>
-  <article class="snippet">
-    <img src="/assets/portfolio/article-2.jpg" alt="This is the image of a poem." class="snippet__image">
-    <h3 class="snippet__title"> <a href="/portfolio/2021-05-15-my-second-work/">Poem Site</a></h3>
-    <p class="snippet__meta">by <span>Paulo Santos</span> on <span>October 06, 2024 </span>
-    </p>
-    <p class="snippet__body">This project was to make an evolving poem page that started off as something pretty simple, and turned into something more creative.</p>
-    <a href="/portfolio/2021-05-15-my-second-work/" class="btn btn--primary">Continue Reading</a>
-  </article>
-</li><li>
-  <article class="snippet">
-    <img src="/assets/portfolio/article-1.jpg" alt="Image of Figma Design Before Transformation" class="snippet__image">
-    <h3 class="snippet__title"> <a href="/portfolio/2021-05-01-my-first-work/">Figma Design - Before</a></h3>
-    <p class="snippet__meta">by <span>Paulo Santos</span> on <span>September 08, 2024 </span>
-    </p>
-    <p class="snippet__body">In this project, I took a poorly designed Figma template for a commercial and transformed it.</p>
-    <a href="/portfolio/2021-05-01-my-first-work/" class="btn btn--primary">Continue Reading</a>
-  </article>
-</li></ul>
-</div>
-
+    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <div class="form-group">
+    <button type="submit">Send</button>
+  </div>
+</form>
 
   </main>
   <footer class="site-footer">

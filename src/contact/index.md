@@ -4,6 +4,7 @@ title: Contact
 ---
 
 <form name="contact" method="POST" data-netlify="true" class="contact-form">
+<input type="hidden" name="form-name" value="contact">
   <div class="form-group">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>

@@ -1,4 +1,4 @@
-# Portfolio - Starter Files
+# My Portfolio 
 
 ## Original Project
 
@@ -26,4 +26,10 @@ You are not using Netlify CMS for this project - Netlify no longer supports thei
 
 With that in mind, you can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin used Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
 
+## Other Information
+
 My Portfolio Page can be access though this link [Portfolio](https://portfolio2-paulo.netlify.app/)
+
+
+Email <zebroa10@gmail.com>
+School Email <G00298711@stu.raritanval.edu>

@@ -17,5 +17,5 @@ description: In this project, I took a poorly designed Figma template for a comm
 
 
     <p>This was the what the page looked like after the changes I made. It was very cluttered before and the color contrast didn't fit too well, so I changed it up and made it look better. You can see that the page now looks cleaner and much more readable than before.</p>
-    <p>Figma Link: <a href="https://www.figma.com/design/sRPzlRRnuD8CJivWNdH98h/road-less-traveled?node-id=0-1&node-type=CANVAS&t=ZcaB7kTzIcCuP4Yd-0">Click Me</a></p>
+    <p><a href="https://www.figma.com/design/sRPzlRRnuD8CJivWNdH98h/road-less-traveled?node-id=0-1&node-type=CANVAS&t=ZcaB7kTzIcCuP4Yd-0">Figma Link </a></p>
 

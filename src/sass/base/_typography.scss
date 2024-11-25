@@ -4,14 +4,12 @@ $font: 'Agdasima';
 
 @font-face {
     font-family: 'Agdasima';
-    font-style: normal;
-    font-weight: 100 900;
-    src: url('/fonts/Agdasima-Regular.ttf') format('truetype');
+    font-weight: regular;
+    src: url('/fonts/Agdasima-Regular.ttf') format ('truetype');
 }
 
 @font-face {
     font-family: 'Agdasima';
-    font-style: bold;
-    font-weight: 100 900;
+    font-weight: bold;
     src: url('/fonts/Agdasima-Bold.ttf') format('truetype');
 }

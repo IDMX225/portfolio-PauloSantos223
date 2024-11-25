@@ -13,6 +13,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   color: var(--clr-primary-200);
+  line-height: 1.6;
 }
 
 h1,
@@ -95,9 +96,14 @@ section,
 .nav-list {
   margin: 0;
   padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
 }
 
-.nav-list a {
+.nav-list a, .btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
   color: var(--clr-primary-300);
   text-decoration: none;
 }
@@ -105,7 +111,9 @@ section,
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-primary-400);
-  text-decoration: underline;
+  background-color: #d3d1d0;
+  text-decoration:alpha($color: #000000);
+  transition: background-color 1.5s step-end;
 }
 
 /* //////////////////////
@@ -141,6 +149,10 @@ header,
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
   text-align: center;
+}
+
+main {
+  padding-top: 3em;
 }
 
 /* //////////////////////
@@ -255,6 +267,15 @@ header,
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content 1fr;
   }
+  
+  @media (max-width: 768px) {
+    .hero__image {
+      max-height: 20vh;
+    }
+    .nav-list {
+      flex-direction: column;
+    }
+  }
 }
 
 .btn {
@@ -271,6 +292,8 @@ header,
 .btn:focus {
   outline: 0.125em solid var(--clr-primary-400);
   outline-offset: 0.25em;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .btn--primary {

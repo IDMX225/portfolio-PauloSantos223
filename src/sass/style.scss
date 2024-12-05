@@ -102,7 +102,8 @@ section,
   background-color: #fff;
 }
 
-.nav-list a, .btn {
+.nav-list a,
+.btn {
   transition: background-color 0.3s ease, color 0.3s ease;
   color: var(--clr-primary-300);
   text-decoration: none;
@@ -112,7 +113,7 @@ section,
 .nav-list a:hover {
   color: var(--clr-primary-400);
   background-color: #d3d1d0;
-  text-decoration:alpha($color: #000000);
+  text-decoration: alpha($color: #000000);
   transition: background-color 1.5s step-end;
 }
 
@@ -149,6 +150,30 @@ header,
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
   text-align: center;
+}
+
+.ps-logo {
+  .st0 {
+    fill: #fff;
+  }
+
+  .st1 {
+    fill: hsl(4, 16%, 21%);
+    fill: var(--clr-primary-400);
+  }
+
+  .st2 {
+    fill: #fff;
+  }
+}
+
+.header-logo {
+  width: max(100px, 10vw);
+  margin-right: 1rem;
+}
+
+.footer-logo {
+  width: max(100px, 25vw);
 }
 
 main {
@@ -267,11 +292,12 @@ main {
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content 1fr;
   }
-  
+
   @media (max-width: 768px) {
     .hero__image {
       max-height: 20vh;
     }
+
     .nav-list {
       flex-direction: column;
     }
